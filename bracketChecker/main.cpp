@@ -10,6 +10,21 @@ bool testing(){
     return true;
 }
 
+/**
+@mainpage Application for check brackets in string
+Tasks:
+- check brackets
+
+\authors
+Alexandr Kuzmichev
+\version
+1.1.0
+*/
+
+/*
+@details
+ The main function of the application
+ */
 int main()
 {
     if(testing() == true) cout << "Tests pass" << endl;

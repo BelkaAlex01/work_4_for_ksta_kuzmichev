@@ -2,7 +2,14 @@
 
 using namespace std;
 
+/**
+ @brief Check string
+ @details
+ A function that is simply bracker checker
+ @param string
 
+ @return result bool answer. True - string correct, false - string incorrect
+ */
 bool bracketChecker(string s){
     int len = s.length();
     int cnt = 0;
