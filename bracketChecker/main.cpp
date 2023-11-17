@@ -4,8 +4,17 @@
 
 using namespace std;
 
+bool testing(){
+    if(bracketChecker("()()") != true) return false;
+    if(bracketChecker(")))") != false) return false;
+    return true;
+}
+
 int main()
 {
+    if(testing() == true) cout << "Tests pass" << endl;
+    else cout << "Tests failed" << endl;
+    cout << endl << "---------run program---------" << endl;
     while(true){
         string s;
         cout << "Enter a string: ";
